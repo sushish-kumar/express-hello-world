@@ -2659,3 +2659,21 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+@media (max-width: 767px) {
+    #home {
+      background-image: url("../images/photo_together.jpeg");
+    }
+}
+  
+@media (min-width: 768px) {
+    #home {
+        background-image: url("../images/dung_photo.jpeg");
+    }
+}
+  
+@media (min-width: 992px) {
+    #home {
+      background-image: url("../images/couple_photo.jpeg");
+    }
+}
